@@ -1,8 +1,4 @@
-.contact-content {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
+
 .contact-info{
 margin-bottom: 0;
 padding-bottom:0;
@@ -15,15 +11,21 @@ padding-bottom:0;
     margin-bottom: 2rem;
 }
 .info .image-wrap{
-    margin-right: 4rem;
-    margin-top: 3rem;
+    display: grid;
+    height:100%;
+    margin-right: 2rem;
 }
 
 .info img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-right: 2rem;
+  max-width: 100%;
+  max-height: 60vh;
+  margin-right: 2rem;
+}
+
+.contact-content {
+  display: grid;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact-logo{
@@ -60,6 +62,23 @@ padding-bottom:0;
 
 .input-group{
     margin-bottom: 1rem;
+}
+
+textarea{
+  border-color: transparent;
+  background-color: transparent;
+  background: transparent;
+  font-weight: normal;
+  color: white;
+}
+
+select{
+  border-color: transparent;
+  background-color: transparent;
+  background: transparent;
+  font-weight: normal;
+  color: white;
+  border-color: white;
 }
 
 .bar {
