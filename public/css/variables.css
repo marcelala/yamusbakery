@@ -1,0 +1,10 @@
+/*Custom colors*/
+
+:root{
+    --dark-pink:rgb(232, 24, 149);
+    --dark-pink-transparent:rgba(232, 24, 149,0.5);
+    --cyan:rgb(36, 212, 231);
+    --cyan-transparent:rgba(36, 212, 231, 0.934);
+    --gradient-color:linear-gradient(to right, var(--dark-pink),var(--cyan));
+    --gradient-color-alt:linear-gradient(to right,var(--cyan),var(--dark-pink));
+}
